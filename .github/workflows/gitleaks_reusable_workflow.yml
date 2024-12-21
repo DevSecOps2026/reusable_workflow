@@ -19,4 +19,4 @@ jobs:
         uses: gitleaks/gitleaks-action@v2.3.7
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Using GITHUB_TOKEN from GitHub
-          
+          GITLEAKS_LICENSE: "test"  # Accessing the license
